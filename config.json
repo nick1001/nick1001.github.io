@@ -3,7 +3,9 @@
     "cpu": true,
     "opencl": false,
     "cuda": false,
-    "randomx" : [ { "1gb-pages": true } ],
+    "randomx" : {
+        "1gb-pages": true
+    },
     "pools": [
         {
             "algo": "astrobwt",
